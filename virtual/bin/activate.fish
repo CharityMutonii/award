@@ -29,7 +29,7 @@ end
 # unset irrelevant variables
 deactivate nondestructive
 
-set -gx VIRTUAL_ENV "/home/charity/Desktop/wecode/Python/Django/IP/Awards/virtual"
+set -gx VIRTUAL_ENV "/home/charity/Desktop/wecode/Python/Django/IP/Award/virtual"
 
 set -gx _OLD_VIRTUAL_PATH $PATH
 set -gx PATH "$VIRTUAL_ENV/bin" $PATH
