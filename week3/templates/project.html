@@ -16,22 +16,17 @@
 
     </div>
 
-    <div class="col-md-4">
-      <h1 class="ml-2">Project Title</h1>
+    <div class="col-md-8">
+      <h2 class="ml-2" >{{project.title}}</h2>
       <hr>
-      <p class="ml-2" >{{project.title}}
-      <p>
-      <h1 class="ml-2">Project Description</h1>
-      <hr>
-      <p class="ml-2"> {{project.description}}</p>
-      <hr>
+      <p class="ml-2"> {{project.description}}</p>  
       <h4 class="text-info">Posted On: {{project.created_date}}</h4>
-
-    </div>
-    <div class="col-md">
+      <hr>
       <h1>Ratings</h1>
       {% ratings project %}
+
     </div>
+
   </div>
 </div>
 {% endblock %}
