@@ -8,7 +8,7 @@ from django.test import TestCase
 class ProfileTestClass(TestCase):
     @classmethod
     def setUpTestData(cls):
-        cls.user = User.objects.create_user('langat')
+        cls.user = User.objects.create_user('charity')
         cls.profile1 = Profile(profile_pics = 'bab.jpg', bio = 'born in Kenya', user = cls.user)
 
     def test_instance(cls):
@@ -24,7 +24,7 @@ class ImageTestClass(TestCase):
     @classmethod
     def setUpTestData(cls):
         # Set up data for the whole TestCase
-        cls.user = User.objects.create_user('langat')
+        cls.user = User.objects.create_user('charity')
         cls.new_profile = Profile(profile_pics = 'bab.jpg', bio = 'born in Kenya', user = cls.user)
         cls.new_image = Image(my_image='/static/images/', caption='Corona', profile=cls.new_profile)
 
