@@ -62,6 +62,7 @@ https://wardzz.herokuapp.com/api/users/
 Projects endpoint
 
 ```sh
+https://wardzz.herokuapp.com/api/projects/
 
 ```
 ## Author
