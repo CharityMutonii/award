@@ -1,45 +1,70 @@
-# Award
+# AWARDS
+A web application which allows a user to post a project he/she has created and get it reviewed by his/her peers and
+and review the work submitted by his/her peers.
 
-An web application which allows a user to post a project he/she has created and get it reviewed by his/her peers and and review the work submitted by his/her peers. A project can be rated based on 3 different criteria.
+## Technologies used
 
-Technologies used
-Python3
-SQLite3
-MDBootstrap 4.8.10
-jQuery 3.4.1
-Django 3.2
-Requirements
+1. Python3
+2. jQuery 3.4.1
+3. Django 3.2
+
+## Requirements
+
 This project requires python3 to run
 
-Setting up a virtual environement
+## Setting up a virtual environement
+
 To create a virtual environement, you will need to install virtualenv
-
+```sh
 pip3 install virtualenv
+```
+
 Create the virtual environement by running the command in the project root
-
+```sh
 virtualenv venv
+```
+
 Activate the virtual environement by running the command
-
+```sh
 source venv/bin/activate
+```
+
 You can always deactivate the virtual environement by entering this command
-
+```sh
 deactivate
-Usage
+```
+
+## Usage
+
 Make migrations by using the command
-
+```sh
 python manage.py migrate
-You need to create a .env file and set your secret key inside it. To launch the app, simply run the command
+```
 
+You need to create a .env file and set your secret key inside it. To launch the app, simply run the command
+```sh
  python manage.py runserver
-Run tests
+```
+
+## Run tests
+
+```sh
 python manage.py test
-API
+```
+
+## API
 Users endpoint
 
+```sh
+
+```
 Projects endpoint
 
+```sh
 
-Author
-Charity Mutoni
+```
+## Author
 
-Github: @CharityMutonii
+👤 **Charity Mutoni**
+
+* Github: [@CharityMutonii](https://github.com/CharityMutonii)
