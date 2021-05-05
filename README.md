@@ -56,6 +56,7 @@ python manage.py test
 Users endpoint
 
 ```sh
+https://wardzz.herokuapp.com/api/users/
 
 ```
 Projects endpoint
